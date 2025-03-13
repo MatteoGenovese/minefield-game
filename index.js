@@ -62,8 +62,8 @@ function populateBlocks(perLineBlocks, wrapperHTML) {
         element.addEventListener("click", function () {
             if (arrayBomb.includes(index)) {
                 element.classList.add("bomb");
-                element.innerHTML = "B";
-                alert("you have been hit by a bomb");
+                element.innerHTML = "💣";
+                alert("you were hit by a bomb");
                 hittedBomb = true;
             } else if (!hittedBomb) {
                 if (!element.classList.contains("active")) {
