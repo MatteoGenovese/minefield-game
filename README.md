@@ -1,6 +1,7 @@
 # This is a mind field game
 
 You can choose between 3 difficulties.
+Each difficulty changes the number of boxes.
 
 There are 12 bombs in total.
 
