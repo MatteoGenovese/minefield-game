@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-items: center;
+    color: beige;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.wrapper {
+    height: 650px;
+    width: 650px;
+    border: 1px solid beige;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.box {
+    border: 1px solid beige;
+    color: bisque;
+}
+
+.easy {
+    width: calc(100%/12);
+    height: calc(100%/12);
+}
+
+.medium {
+    width: calc(100%/8);
+    height: calc(100%/8);
+}
+
+.hard {
+    width: calc(100%/6);
+    height: calc(100%/6);
+}
+
+.box.active {
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.box.bomb {
+    background-color: red;
+    color: black;
+}
+
+.settings-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.game-wrapper {
+    height: 650px;
+    width: 650px;
+    position: relative;
+}
+
+.you-won {
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
